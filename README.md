@@ -1,6 +1,6 @@
 # Vector Databases
 
-This repository supports the blogpost at [chaos by derf](https://chaosbyderf.com)
+This repository supports a blog post at [chaos by derf](https://chaosbyderf.com) (Upcoming post).
 
 ## Project goal
 I want to understand the trade-offs between a few different vector databases.
@@ -41,6 +41,7 @@ I used Claude to create 20 documents with a goal of diverse topics:
 ## Organization
 I am trying to create simple scripts/notebooks (as needed) to explore the concepts without getting bogged down in code organization. The trade-off is that functions may be replicated across scripts.
 
+- **chroma.py** a simple hello world using the 20 markdown files with chromadb.
 - **docs** a set of 20 markdown files (see Documents section).
 - **roll.py** doing everything by hand. Use this when looking to understand vector databases and do a bit of your own creation.
  
